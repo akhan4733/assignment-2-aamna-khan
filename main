@@ -1,0 +1,97 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include "Employee.h"
+#include "Professional.h"
+#include "nonProfessional.h"
+
+using namespace std;
+
+//setting void int
+
+void monthlysal (int monthlysal);
+
+void monthlyvacation(int monthlyvacation);
+
+void nonPro (int nonPro);
+
+int main ()
+{
+bool game = true;
+
+//all integers I have used 
+  int a = 4;
+  int sal1;
+  int sal2;
+  int vac1;
+  int vac2;
+  int health1;
+  int health2;
+  
+  int pro, nonPro, weeklysal, healthcaredays, vacation, monthlysal, monthlyvacation;
+
+//first function
+  cout << "Enter the monthly salary of professional employee:" << endl;
+
+  cin >> monthlysal/4;
+  
+
+
+  //second function
+cout << "Enter the monthly vacation of Professional Employee in days:" << endl;
+
+  cin >> monthlyvacation;
+
+  //third function
+
+cout << "Enter the hours worked by Non Professional Employee in days:" << endl;
+
+  cin >> nonPro;
+  
+//break
+ cout << " *** Professional Employee***"
+<< endl;
+
+  
+//first output function
+  
+  cout << "Weekly salary of Professional Employee:" <<endl;
+
+  cin >> sal1;
+
+  //second output function 
+
+  cout << "Weekly Vacation of Professional Employee:" << endl;
+
+  cin >> vac1;
+
+  //third function
+
+  cout << "Weekly heathcare Contributions of Professional Employee: " << endl;
+  cin >> health1;
+
+  //nonpro functions
+
+  //first function
+
+  cout << "***Non Professional Employee***" << endl;
+
+  //second fuction
+  
+  cout << "Weekly salary of  Non Professional Employee:" <<endl;
+
+  cin >> sal2;
+
+  //third function
+cout << "Weekly Vacation of Professional Employee:" << endl;
+
+  cin >> vac2;
+  
+  //fourth function
+
+  cout << "Weekly heathcare Contributions of Professional Employee: " << endl;
+  cin >> health2;
+  
+  return 0;
+  
+}
